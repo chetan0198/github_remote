@@ -2,6 +2,8 @@ token for github_local local folder to remotes github_remote (token classic)
 
 token -- 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
 
+unlimited token - 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
+
 steps for creating git repo
 create local folder and remote repo with a single file
 init the local folder
