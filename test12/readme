@@ -1,0 +1,1 @@
+the file.csv is the file where the converted data from pypspark df is converted to pandas df then with toPandas pyspark method. then the pandas dataframe is converted to csv with append mode with header and index False in append mode. check pandas1.ipynb for reference.

@@ -1,0 +1,28 @@
+steps for git repo creation
+
+got to folder than git init
+create a file edit it and do git status
+git add .
+git commit -m "message"
+
+
+now go to git hub create a repo(fully empty repo) to linked to local repo where all local things will be uploaded.
+
+create personalizar token in setting developer option.
+
+and run in local terminal below command
+syntax - git remote set-url origin https://<username>:<token>@github.com/<username>/<repository>.git
+cmd - git remote set-url origin https://chetan0198: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@github.com/chetan0198/git-repo-remote.git
+
+
+now run - git push origin master(to push all content as well as branch to remote)
+git pull origin master
+
+
+after adding set up or updating url-- git remote set-url origin https://chetan0198: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@github.com/chetan0198/pyspark.git
+
+add for the first time --- git remote add origin https://chetan0198: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@github.com/chetan0198/pyspark.git
+
+common token - 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
+
+
