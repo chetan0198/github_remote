@@ -1,0 +1,24 @@
+kafka doesn't needs any installation just doenload extract cd into wxtracted folder and start working...
+
+kafka installation doc -- https://kafka.apache.org/quickstart
+
+kafka has the zookeper inside it just start the zookeeper as well as kafka with the following commands.
+
+# Start the ZooKeeper service
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# Start the Kafka broker service
+$ bin/kafka-server-start.sh config/server.properties
+
+# create the topics
+$ bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+
+# list the topic
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+start the producer with specific topic to produce events.
+bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
+
+here the specific topic will be subscribed.
+bin/kafka-console-consumer.sh --topic quickstart-events --bootstrap-server localhost:9092 --from-beginning
+
